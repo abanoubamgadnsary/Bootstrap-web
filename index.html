@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="/Css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body::before{
+            content: '';
+            display: block;
+            height: 60px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <!---navbar---->
+
+    <div class="navbar text-white navbar-expand-md bg-dark  navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Bootstrap Tutorial</a>
+
+            <button title="menu" class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainmenu">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#hero" class="nav-link">Get started</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#learn" class="dropdown-item">Learn Bootstrap</a></li>
+                            <li><a href="#next" class="dropdown-item">Where to go next</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#fag" class="nav-link">Ask me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!---Hero area-->
+
+    <section id="hero" class="bg-dark text-light text-center text-md-start py-5">
+        <div class="container" >
+            <div class="d-sm-flex align-items-center justify-content-center" >
+                <div class="py-3">
+                    <h1 class="display-5">Learn <span class="text-info">Bootstrap</span></h1>
+                    <p class="py-">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Consequatur fuga optio quas, error dignissimos illo
+                          nostrum minus debitis enim veniam natus
+                         iusto animi veritatis nesciunt quos non
+                          laboriosam itaque voluptatem sed perferendis
+                           cupiditate, mollitia repellendus inventore!
+                            Iste ipsam iusto laudantium.</p>
+                   <button class="btn btn-info">Get Started</button>  
+                
+                </div>
+
+            <img class="d-none d-sm-block img-fluid w-50  " src="pro.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+<!----Service---->
+
+    <section class="py-5" id="features">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Features
+            </h2>
+            <div class="row text-center">
+                <div class="col-sm ">
+                    <div class="card bg-dark text-light mb-3">
+                        <div class="h2 mt-3">
+                            <i class="bi bi-arrows-angle-contract"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-info">Resposive</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet
+                                 consectetur adipisicing elit.
+                                 Necessitatibus culpa optio vero.</p>
+                                <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm ">
+                    <div class="card bg-dark text-light mb-3">
+                        <div class="h2 mt-3">
+                            <i class="bi bi-bounding-box-circles"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-info">Easy Styling</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet
+                                 consectetur adipisicing elit.
+                                 Necessitatibus culpa optio vero.</p>
+                                <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm ">
+                    <div class="card bg-dark text-light mb-3">
+                        <div class="h2 mt-3">
+                            <i class="bi bi-bricks"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-info">Fast Working</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet
+                                 consectetur adipisicing elit.
+                                 Necessitatibus culpa optio vero.</p>
+                                <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!---What to Learn---->
+
+    <section id="learn" class="py-5">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md">
+                    <img src="we.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md py-4">
+                    <h2>Learn the Basics</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                         elit. Minus facere asperiores quia maiores fuga
+                          voluptates, quae, quo dolores dolor deserunt,
+                           iusto est corporis enim rerum atque reprehenderit
+                            unde harum nemo aperiam beatae? Enim ut quia liber
+                            o quasi fugiat est blanditiis?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                 adipisicing elit. Praesentium cum
+                                  voluptatum optio eaque autem ea? 
+                                  Autem ad rem doloribus minima?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!---Next---->
+
+
+    <section id="next" class="py-5 bg-dark text-light ">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center flex-row-reverse">
+                <div class="col-md">
+                    <img src="react.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md py-4">
+                    <h2>Where to go next</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                         elit. Minus facere asperiores quia maiores fuga
+                          voluptates, quae, quo dolores dolor deserunt,
+                           iusto est corporis enim rerum atque reprehenderit
+                            unde harum nemo aperiam beatae? Enim ut quia liber
+                            o quasi fugiat est blanditiis?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                 adipisicing elit. Praesentium cum
+                                  voluptatum optio eaque autem ea? 
+                                  Autem ad rem doloribus minima?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---FAQ---->
+
+    <section id="fag" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion accordion-flush" id="bt">
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="faq-1">
+                        <button class="accordion-button collapsed" type="button"
+                         data-bs-toggle="collapse" data-bs-target="#answer-1">
+                            Question One
+                        </button>
+                    </h3>
+                    <div class="accordion-collapse collapse p-4" id="answer-1"
+                         data-bs-parent="#bt" >
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Est distinctio quasi in!
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="faq-2">
+                        <button class="accordion-button collapsed" type="button"
+                         data-bs-toggle="collapse" data-bs-target="#answer-2">
+                            Question Two
+                        </button>
+                    </h3>
+                    <div class="accordion-collapse collapse p-4" id="answer-2"
+                         data-bs-parent="#bt">
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Est distinctio quasi in!
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="faq-3">
+                        <button class="accordion-button collapsed" type="button"
+                         data-bs-toggle="collapse" data-bs-target="#answer-3">
+                            Question Three
+                        </button>
+                    </h3>
+                    <div class="accordion-collapse collapse p-4" id="answer-3" data-bs-parent="#bt">
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Est distinctio quasi in!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Footer---->
+    <footer class="py-4 bg-dark text-light text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2023
+            </p>
+            <a title="link" href="#" class="position-absolute bottom-0 end-0 p-3">
+                <i class="bi bi-arrow-up-circle h2"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
